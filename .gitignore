@@ -1,0 +1,93 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets and generated data
+datasets/
+data/
+images/
+inputs/
+outputs/
+results/
+*.tfrecord
+*.record
+*.npy
+*.npz
+
+# Machine-learning model weights and exports
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.safetensors
+checkpoints/
+saved_model/
+
+# Experiment tracking and training logs
+wandb/
+wandb/**
+tensorboard/
+logs/
+*.log
+events.out.tfevents.*
+mlruns/
+ray_results/
+
+# Generated image and media outputs
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# Keep the project guide and source documentation tracked if extensions overlap.
+!TRAINING_GUIDE.md
+!README.md
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and build artifacts
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
